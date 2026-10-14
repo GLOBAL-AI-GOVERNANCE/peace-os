@@ -20,6 +20,7 @@ APPROVED = {
     ("GitHub Actions", "actions" + "@" + "github.com"),
     ("github-actions[bot]", "41898282+github-actions[bot]" + "@" + "users.noreply.github.com"),
     ("dependabot[bot]", "49699333+dependabot[bot]" + "@" + "users.noreply.github.com"),
+    ("dependabot[bot]", "support" + "@" + "github.com"),
     ("web-flow", "noreply" + "@" + "github.com"),
 }
 TRAILER = re.compile(r"(?im)^(co-authored-by|signed-off-by|reviewed-by|acked-by):\s*(.+)$")
