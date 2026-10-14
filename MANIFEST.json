@@ -618,9 +618,9 @@
       "sha256": "86ea71d8a0078e029d1302fdb397a871f2cc3ce8874b18b9d5dc1bb1f8b276ee"
     },
     {
-      "bytes": 4959,
+      "bytes": 5016,
       "path": "tools/check_history_privacy.py",
-      "sha256": "ac4f6ffa28064e64a48425913f04044b8a1928c10824a406f9ebedcbf2ceff9a"
+      "sha256": "84081d48d4324564403f3e219febba9a432b03088a329641216c3968f620771c"
     },
     {
       "bytes": 2394,
