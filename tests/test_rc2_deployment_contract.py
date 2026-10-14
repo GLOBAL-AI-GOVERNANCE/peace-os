@@ -66,7 +66,7 @@ class Rc2DeploymentContractTests(unittest.TestCase):
             'expected_commit': commit,
             'base_url': 'https://example.test/site/',
             'deployment_metadata': {
-                'repository': 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room',
+                'repository': 'GLOBAL-AI-GOVERNANCE/peace-os',
                 'commit': commit,
             },
             'console_errors': [],
