@@ -357,7 +357,7 @@ async function waitForDeploymentMetadata(baseUrl, expectedCommit, timeoutMs = 12
       const metadata = await loadJson(baseUrl, relative);
       last = metadata?.commit || 'missing commit';
       if (
-        metadata?.repository === 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room'
+        metadata?.repository === 'GLOBAL-AI-GOVERNANCE/peace-os'
         && metadata?.commit === expectedCommit.toLowerCase()
       ) return metadata;
     } catch (error) {

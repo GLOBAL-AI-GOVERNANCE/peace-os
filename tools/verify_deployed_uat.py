@@ -37,7 +37,7 @@ def main() -> None:
     deployment = record.get('deployment_metadata') or {}
     if deployment.get('commit') != commit:
         failures.append('deployment metadata does not bind the exact merge SHA')
-    if deployment.get('repository') != 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room':
+    if deployment.get('repository') != 'GLOBAL-AI-GOVERNANCE/peace-os':
         failures.append('deployment metadata repository identity is wrong')
     if record.get('console_errors'):
         failures.append('console errors were recorded')

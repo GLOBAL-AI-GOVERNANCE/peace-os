@@ -438,9 +438,9 @@
       "sha256": "726a4aa4d4eadffbd1ae0136a99747330d7406a5d3b3bcaa3465de78493c6c9f"
     },
     {
-      "bytes": 32013,
+      "bytes": 32001,
       "path": "tests/deployed_browser_uat.mjs",
-      "sha256": "d2cdb5b80a9f349e29176629e3e419f465f068a22bb7d7a0f3bde14a5cf623ed"
+      "sha256": "41bd255284afcb351270aa598f599fbe19c93ec1b3fcdd4929fd752e93f4c3d1"
     },
     {
       "bytes": 1679,
@@ -553,9 +553,9 @@
       "sha256": "69640aae26ec0ec3960c76e5cd77b48b837b00c466e5e322ce91a7018a10f5f4"
     },
     {
-      "bytes": 4025,
+      "bytes": 4013,
       "path": "tests/test_rc2_deployment_contract.py",
-      "sha256": "8e6179013a94270a7c0d3a45e08b8c2bcdff449a08ced42fa1a835b13c56a7c8"
+      "sha256": "9099918b4e935103550a3a2064f383e018dd1663f970bd7d89a67bae4a1e2170"
     },
     {
       "bytes": 817,
@@ -713,9 +713,9 @@
       "sha256": "440a852aa2e9a4912e12e835b654f07eb69b6eef20060dd0c76a3dbd7abdaca9"
     },
     {
-      "bytes": 2510,
+      "bytes": 2498,
       "path": "tools/verify_deployed_uat.py",
-      "sha256": "9addd296610cdf7679c573e26f1f684cdcd903be515fa2c348110944afadf0e6"
+      "sha256": "3a0fe0c903807c578ef5b437cd26db964bfb0da00b2d6602046efd81b8b12a00"
     },
     {
       "bytes": 1839,
