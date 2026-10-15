@@ -5,6 +5,6 @@ authors:
   - name: "Global AI Governance contributors"
 type: software
 version: "0.3.0-rc2"
-repository-code: "https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room"
-url: "https://global-ai-governance.github.io/peace-os-crisis-room/"
+repository-code: "https://github.com/GLOBAL-AI-GOVERNANCE/peace-os"
+url: "https://global-ai-governance.github.io/peace-os/"
 license: MIT

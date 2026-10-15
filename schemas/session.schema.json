@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://global-ai-governance.github.io/peace-os-crisis-room/schemas/session.schema.json",
+  "$id": "https://global-ai-governance.github.io/peace-os/schemas/session.schema.json",
   "title": "Peace OS Local Browser Session",
   "type": "object",
   "additionalProperties": false,

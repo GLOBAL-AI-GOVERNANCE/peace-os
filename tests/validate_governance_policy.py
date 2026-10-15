@@ -42,7 +42,7 @@ if len(policy.get('allowed_authenticity_levels',[])) != 4:
     raise SystemExit('Authenticity dimension missing')
 if len(policy.get('audit_limit','')) < 80:
     raise SystemExit('Audit limitation must be explicit')
-if policy.get('canonical_repository') != 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room':
+if policy.get('canonical_repository') != 'GLOBAL-AI-GOVERNANCE/peace-os':
     raise SystemExit('Canonical repository mismatch')
 if policy.get('public_delivery') != 'semantic_web_first':
     raise SystemExit('Public delivery architecture mismatch')

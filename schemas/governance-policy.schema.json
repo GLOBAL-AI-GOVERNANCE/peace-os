@@ -1,5 +1,5 @@
 {
-  "$id": "https://global-ai-governance.example/schemas/peace-os-crisis-room/governance-policy.schema.json",
+  "$id": "https://global-ai-governance.example/schemas/peace-os/governance-policy.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "additionalProperties": false,
   "properties": {
@@ -53,7 +53,7 @@
       "type": "string"
     },
     "canonical_repository": {
-      "const": "GLOBAL-AI-GOVERNANCE/peace-os-crisis-room"
+      "const": "GLOBAL-AI-GOVERNANCE/peace-os"
     },
     "decision_digest_algorithm": {
       "const": "sha256"

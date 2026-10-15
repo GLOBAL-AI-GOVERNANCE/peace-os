@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://global-ai-governance.github.io/peace-os-crisis-room/schemas/release-metadata.schema.json",
+  "$id": "https://global-ai-governance.github.io/peace-os/schemas/release-metadata.schema.json",
   "title": "Peace OS Canonical Release Metadata",
   "type": "object",
   "additionalProperties": false,

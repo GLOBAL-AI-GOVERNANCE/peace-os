@@ -21,7 +21,7 @@ For this RC2 prerelease, exact deployed automated UAT is the publication gate. H
 
 ## RC2 publication record
 
-- Public prerelease: [`v0.3.0-rc2`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/releases/tag/v0.3.0-rc2)
+- Public prerelease: [`v0.3.0-rc2`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v0.3.0-rc2)
 - Exact release commit: `aa6d8f75ce755fd143a4aa457eadf91b54604bd5`
 - Exact deployed Pages workflow: [`30897461431`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/actions/runs/30897461431) — **PASS**
 - Commit-bound deployed-UAT artifact: `peace-os-v0.3.0-rc2-deployed-uat-aa6d8f75ce755fd143a4aa457eadf91b54604bd5`
@@ -48,3 +48,5 @@ The following remain HOLD until independently evidenced:
 - operational, intelligence, emergency-response, or legal-attribution use.
 
 The browser prerelease is a public review candidate, not a stable or certified product.
+
+The historical Pages run above was recorded against the former repository identity. Current repository identity is `GLOBAL-AI-GOVERNANCE/peace-os`.

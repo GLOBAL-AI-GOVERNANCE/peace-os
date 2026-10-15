@@ -11,7 +11,7 @@ class LineageContract(unittest.TestCase):
         publish = (ROOT / 'scripts' / 'publish_to_github.sh').read_text(encoding='utf-8')
         self.assertIn('Peace OS: Crisis Room', readme)
         self.assertIn('Peace OS is the product name. This project is not a computer operating system.', readme)
-        self.assertIn('GLOBAL-AI-GOVERNANCE/peace-os-crisis-room', publish)
+        self.assertIn('GLOBAL-AI-GOVERNANCE/peace-os', publish)
 
     def test_lean_public_verification_record(self):
         self.assertTrue((ROOT / 'VERIFICATION.md').is_file())

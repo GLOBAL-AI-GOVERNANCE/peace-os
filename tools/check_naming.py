@@ -3,7 +3,7 @@ from generate_manifest import ROOT, controlled_files
 
 CANONICAL = 'Peace OS: Crisis Room'
 SLUG = 'peace-os-crisis-room'
-REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room'
+REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os'
 VERSION = '0.3.0-rc2'
 DISCLAIMER = 'Peace OS is the product name. This project is not a computer operating system.'
 
@@ -45,5 +45,47 @@ for rel in controlled_files():
     for stale in ('0.3.0-rc3', '0.3.0-rc4', '0.3.0-rc5'):
         if stale in text and not rel_text.startswith('docs/audit/'):
             raise SystemExit(f'Internal candidate version leaked into {rel_text}')
+
+
+FORMER_REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room'
+FORMER_PAGES = 'https://global-ai-governance.github.io/peace-os-crisis-room/'
+CURRENT_REPOSITORY_URL = 'https://github.com/GLOBAL-AI-GOVERNANCE/peace-os'
+CURRENT_PAGES_URL = 'https://global-ai-governance.github.io/peace-os/'
+HISTORICAL_IDENTITY_ALLOWLIST = {
+    'CHANGELOG.md',
+    'docs/architecture/ADR-001-canonical-identity.md',
+    'VERIFICATION.md',
+    'PUBLIC_RELEASE_GATE.md',
+}
+IDENTITY_CHECK_EXCLUSIONS = {
+    'tools/check_naming.py',
+    'tests/test_current_repository_identity.py',
+}
+
+
+def current_identity_violation(text, rel):
+    """Return a failure when a former full repository or Pages identity is current."""
+    if rel in HISTORICAL_IDENTITY_ALLOWLIST or rel in IDENTITY_CHECK_EXCLUSIONS:
+        return None
+    if FORMER_REPOSITORY in text:
+        return f'Former repository identity remains current in {rel}'
+    if FORMER_PAGES in text:
+        return f'Former Pages identity remains current in {rel}'
+    return None
+
+
+for rel in controlled_files():
+    if rel.as_posix() in IDENTITY_CHECK_EXCLUSIONS:
+        continue
+    if rel.suffix.lower() not in text_suffixes and rel.name not in {'VERSION', 'LICENSE'}:
+        continue
+    violation = current_identity_violation((ROOT / rel).read_text(encoding='utf-8', errors='ignore'), rel.as_posix())
+    if violation:
+        raise SystemExit(violation)
+
+if CURRENT_REPOSITORY_URL not in (ROOT / 'CITATION.cff').read_text(encoding='utf-8'):
+    raise SystemExit('CITATION.cff does not name the current repository')
+if CURRENT_PAGES_URL not in (ROOT / 'CITATION.cff').read_text(encoding='utf-8'):
+    raise SystemExit('CITATION.cff does not name the current Pages location')
 
 print('Canonical Peace OS identity, repository, clarification, and version checks passed.')

@@ -1004,6 +1004,6 @@ $('#delete-session').addEventListener('click', () => requestDeleteSavedSession(s
 
 init().catch(error => {
   document.documentElement.dataset.appFailed = 'true';
-  main.innerHTML = `<section class="panel"><h2>Unable to load simulation</h2><p class="error">${esc(error.message)}</p><p>Reload the page in a current browser. If the problem continues, review the <a href="https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room">source repository</a>, <a href="https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/blob/main/VERIFICATION.md">verification matrix</a>, or <a href="https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/issues/new/choose">report an issue</a>.</p></section>`;
+  main.innerHTML = `<section class="panel"><h2>Unable to load simulation</h2><p class="error">${esc(error.message)}</p><p>Reload the page in a current browser. If the problem continues, review the <a href="https://github.com/GLOBAL-AI-GOVERNANCE/peace-os">source repository</a>, <a href="https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/blob/main/VERIFICATION.md">verification matrix</a>, or <a href="https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/issues/new/choose">report an issue</a>.</p></section>`;
   console.error(error);
 });

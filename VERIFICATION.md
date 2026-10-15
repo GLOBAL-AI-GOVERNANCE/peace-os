@@ -39,8 +39,10 @@ python3 tools/run_automated_acceptance.py \
 
 The original RC2 release evidence was produced from historical signed and deployed commit `aa6d8f75ce755fd143a4aa457eadf91b54604bd5` after required checks, Pages deployment, commit-bound `deployment.json`, deployed-browser journeys, deterministic rebuilds, matching provenance, and downloaded release-asset reverification passed. That historical deployment record and its evidence artifacts remain intact.
 
-After bounded history sanitation, the current [`v0.3.0-rc2`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/releases/tag/v0.3.0-rc2) tag names post-sanitation commit `8a40d94fcee14a6d6eb76782319bb90f0cec6202`. Both commits resolve to shared source tree `d92212c36535b8e196805d24667a952bb148ccdf`: the release source content was preserved while commit identity changed. The original signature applies only to the historical commit; the current tag is the post-sanitation release identity and does not inherit that signature. See the portfolio [release provenance migration receipt](https://github.com/GLOBAL-AI-GOVERNANCE/GLOBAL-AI-GOVERNANCE/blob/main/docs/RELEASE_PROVENANCE_MIGRATION.md).
+After bounded history sanitation, the current [`v0.3.0-rc2`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v0.3.0-rc2) tag names post-sanitation commit `8a40d94fcee14a6d6eb76782319bb90f0cec6202`. Both commits resolve to shared source tree `d92212c36535b8e196805d24667a952bb148ccdf`: the release source content was preserved while commit identity changed. The original signature applies only to the historical commit; the current tag is the post-sanitation release identity and does not inherit that signature. See the portfolio [release provenance migration receipt](https://github.com/GLOBAL-AI-GOVERNANCE/GLOBAL-AI-GOVERNANCE/blob/main/docs/RELEASE_PROVENANCE_MIGRATION.md).
 
 Later documentation or workflow maintenance may advance `main` and Pages without moving the RC2 tag or replacing the verified RC2 release assets.
 
 Human accessibility, professional, Godot, Windows, certification, and operational evidence remain separate release paths. No result inherits PASS from another client, platform, or evidence class.
+
+The historical Pages run above was recorded against the former repository identity. Current repository identity is `GLOBAL-AI-GOVERNANCE/peace-os`.
