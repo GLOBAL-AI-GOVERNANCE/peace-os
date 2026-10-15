@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 164,
+  "file_count": 165,
   "files": [
     {
       "bytes": 180,
@@ -518,6 +518,11 @@
       "sha256": "b858dfed389826d0eedd9bd4fcddc95b64428465f0a5f109473bea8a99829e7f"
     },
     {
+      "bytes": 1428,
+      "path": "tests/test_current_repository_identity.py",
+      "sha256": "cc58024cc34ffd360c52fe861519c6f386fd8e6918c887e06d3ec5dd563acd0b"
+    },
+    {
       "bytes": 1225,
       "path": "tests/test_decision_digest_contract.py",
       "sha256": "a10f237f7089ed593c9bfd986fe509b6309296fb0dcd6b222326d31f4778cea8"
@@ -623,9 +628,9 @@
       "sha256": "84081d48d4324564403f3e219febba9a432b03088a329641216c3968f620771c"
     },
     {
-      "bytes": 3241,
+      "bytes": 4096,
       "path": "tools/check_naming.py",
-      "sha256": "ecbf0dbc8e40058096e21a33f4804e2ea6e3e7ac56f5ff044eda5fc22f64abc6"
+      "sha256": "108a8d63d912cc309121e8ce72c76d11f3a357ea3bf0a8bba84e7bac89e27962"
     },
     {
       "bytes": 4951,
