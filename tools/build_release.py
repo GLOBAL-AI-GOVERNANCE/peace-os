@@ -156,7 +156,7 @@ def main() -> None:
     provenance = {
         'schema_version': '1.2',
         'artifact': 'Peace OS: Crisis Room',
-        'repository': 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room',
+        'repository': 'GLOBAL-AI-GOVERNANCE/peace-os',
         'version': version,
         'release_timestamp_utc': timestamp_utc,
         'release_date': release_time.date().isoformat(),
@@ -202,18 +202,18 @@ def main() -> None:
             ],
         },
         'dataLicense': 'CC0-1.0',
-        'documentNamespace': f'https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/spdx/{version}/{commit}',
+        'documentNamespace': f'https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/spdx/{version}/{commit}',
         'name': f'peace-os-crisis-room-v{version}-release',
         'packages': [
             {
                 'SPDXID': 'SPDXRef-Package-PeaceOS-CrisisRoom',
                 'checksums': [{'algorithm': 'SHA256', 'checksumValue': sha(archive)}],
                 'copyrightText': 'NOASSERTION',
-                'downloadLocation': f'https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/releases/tag/v{version}',
+                'downloadLocation': f'https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v{version}',
                 'externalRefs': [
                     {
                         'referenceCategory': 'PACKAGE-MANAGER',
-                        'referenceLocator': f'pkg:github/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room@v{version}',
+                        'referenceLocator': f'pkg:github/GLOBAL-AI-GOVERNANCE/peace-os@v{version}',
                         'referenceType': 'purl',
                     }
                 ],

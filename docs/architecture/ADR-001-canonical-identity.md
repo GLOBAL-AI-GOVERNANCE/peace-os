@@ -23,3 +23,7 @@ The product name does not imply a general-purpose computer operating system, ope
 The public `v0.2.2` baseline used the title **Peace Governance Crisis Room**. That name remains in historical audit and release records only. Existing tags and releases must not be rewritten.
 
 The live repository must be explicitly renamed by an authorized administrator before this candidate is published so GitHub reports the exact canonical identity above rather than only redirecting the former URL.
+
+## Current repository identity
+
+The accepted decision above records the repository identity at the time of that decision. The current public repository is `GLOBAL-AI-GOVERNANCE/peace-os`. The current Pages location is `https://global-ai-governance.github.io/peace-os/`. Historical release assets and compatibility identifiers retain their original names.

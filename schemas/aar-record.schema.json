@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://global-ai-governance.github.io/peace-os-crisis-room/schemas/aar-record.schema.json",
+  "$id": "https://global-ai-governance.github.io/peace-os/schemas/aar-record.schema.json",
   "title": "Peace OS: Crisis Room After-Action Record",
   "type": "object",
   "additionalProperties": false,

@@ -11,7 +11,7 @@ required = {
     'message:': 'message',
     'authors:': 'authors',
     '- name: "Global AI Governance contributors"': 'organization author',
-    'repository-code: "https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room"': 'repository',
+    'repository-code: "https://github.com/GLOBAL-AI-GOVERNANCE/peace-os"': 'repository',
 }
 missing = [label for fragment, label in required.items() if fragment not in text]
 if missing:

@@ -3,7 +3,7 @@ from generate_manifest import ROOT, controlled_files
 
 CANONICAL = 'Peace OS: Crisis Room'
 SLUG = 'peace-os-crisis-room'
-REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room'
+REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os'
 VERSION = '0.3.0-rc2'
 DISCLAIMER = 'Peace OS is the product name. This project is not a computer operating system.'
 
@@ -45,5 +45,24 @@ for rel in controlled_files():
     for stale in ('0.3.0-rc3', '0.3.0-rc4', '0.3.0-rc5'):
         if stale in text and not rel_text.startswith('docs/audit/'):
             raise SystemExit(f'Internal candidate version leaked into {rel_text}')
+
+
+current_identity_files = (
+    'README.md',
+    'CITATION.cff',
+    'core/release/metadata.json',
+    'scripts/publish_to_github.sh',
+    'web/index.html',
+)
+former_pages = 'global-ai-governance.github.io/peace-os-crisis-room'
+former_repo = 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room'
+for rel in current_identity_files:
+    current = (ROOT / rel).read_text(encoding='utf-8')
+    if former_pages in current or former_repo in current:
+        raise SystemExit(f'Former repository identity remains current in {rel}')
+    if REPOSITORY not in current and rel != 'CITATION.cff':
+        raise SystemExit(f'Current repository identity missing from {rel}')
+if 'repository-code: "https://github.com/GLOBAL-AI-GOVERNANCE/peace-os"' not in (ROOT / 'CITATION.cff').read_text(encoding='utf-8'):
+    raise SystemExit('CITATION.cff does not name the current repository')
 
 print('Canonical Peace OS identity, repository, clarification, and version checks passed.')

@@ -16,7 +16,7 @@ import urllib.parse
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED_REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os-crisis-room'
+EXPECTED_REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os'
 EXPECTED_ASSETS = {
     '': ('Peace OS: Crisis Room', 'Verification before amplification'),
     'app.js': ('Decision fingerprint', 'Download After-Action Review Record'),
@@ -118,7 +118,7 @@ def external_reference_check() -> dict[str, object]:
     pattern = re.compile(r'https?://[^\s"\'<>)]+' )
     for path in files:
         refs.extend(pattern.findall(path.read_text(encoding='utf-8')))
-    allowed = [ref for ref in refs if ref.startswith('https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room')]
+    allowed = [ref for ref in refs if ref.startswith('https://github.com/GLOBAL-AI-GOVERNANCE/peace-os')]
     unexpected = sorted(set(refs) - set(allowed))
     return {'status': 'PASS' if not unexpected else 'FAIL', 'unexpected_external_references': unexpected}
 

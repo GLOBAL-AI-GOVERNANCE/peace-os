@@ -1,3 +1,8 @@
+
+## Current repository identity
+
+Current public repository: `GLOBAL-AI-GOVERNANCE/peace-os`. Current Pages location: `https://global-ai-governance.github.io/peace-os/`. Earlier entries preserve the repository identity used at the time.
+
 # Changelog
 
 ## v0.3.0-rc2 - Primer Closure and Contract Hardening

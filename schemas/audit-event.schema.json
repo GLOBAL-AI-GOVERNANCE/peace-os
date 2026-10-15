@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://global-ai-governance.github.io/peace-os-crisis-room/schemas/audit-event.schema.json",
+  "$id": "https://global-ai-governance.github.io/peace-os/schemas/audit-event.schema.json",
   "title": "Peace OS Local Audit Event",
   "type": "object",
   "additionalProperties": false,

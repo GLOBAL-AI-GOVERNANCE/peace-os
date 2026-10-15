@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 SOURCE_ROOT="$(cd -- "$SCRIPT_DIR/.." && pwd)"
-REPO="GLOBAL-AI-GOVERNANCE/peace-os-crisis-room"
+REPO="GLOBAL-AI-GOVERNANCE/peace-os"
 BRANCH="feat/web-app-integration"
 PUSH=0
 [[ "${1:-}" == "--push" ]] && PUSH=1
