@@ -798,9 +798,9 @@
       "sha256": "37da05306325bba819690e0e16aea979c20963f3999bd234c7f142768b6a5508"
     },
     {
-      "bytes": 3548,
+      "bytes": 4454,
       "path": "web/index.html",
-      "sha256": "d8557ea95800adab27952bad4b64b232dcdbf67df0f24ccd844822eaf346c1df"
+      "sha256": "902454d4d4a5487902ccfde11b9c1158e768d1f4729b890a146dcb2d723c0d09"
     },
     {
       "bytes": 410,
@@ -823,9 +823,9 @@
       "sha256": "7f829612310dc11ba289a907ae495b181c5ed591ded07ef10ab69518360294a3"
     },
     {
-      "bytes": 7231,
+      "bytes": 7996,
       "path": "web/styles.css",
-      "sha256": "177c39620e4d7c4eb5c38e64b587508a6302375cc5678646724546c5b675f9c0"
+      "sha256": "04bbd8a65b7e103b036f16c8f1170d99966a6b20767a4b66640a6305f9fd09f0"
     }
   ],
   "hash_algorithm": "sha256",
