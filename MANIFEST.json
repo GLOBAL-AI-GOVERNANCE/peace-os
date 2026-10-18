@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 165,
+  "file_count": 167,
   "files": [
     {
       "bytes": 180,
@@ -98,9 +98,9 @@
       "sha256": "5219e8a8a086b91f8b65159720cd3e18b2777107856e344b43db2be74e442d90"
     },
     {
-      "bytes": 6534,
+      "bytes": 6668,
       "path": "README.md",
-      "sha256": "1d7a2d9dbc10a1d7228e7f35b7ec14b30127ed67bed3e9e2c7e7146e03c29288"
+      "sha256": "a72503f78ebbdc67f29ee9576923f12915ea2b10fd50c06fdba7d62c28a8c809"
     },
     {
       "bytes": 1149,
@@ -183,6 +183,11 @@
       "sha256": "f087b23a29bd5b53c30cb53317feaf54217395b76b4aa9b321836af5a37170a1"
     },
     {
+      "bytes": 4829,
+      "path": "docs/STABLE-HUMAN-VALIDATION-KIT.md",
+      "sha256": "844f08a41098c098ff13894cd9fc49239be401080580875b6bf0184685dc3bbf"
+    },
+    {
       "bytes": 1633,
       "path": "docs/architecture/ADR-001-canonical-identity.md",
       "sha256": "b4443735c19fb29deecf675664dd51effd404627d3243a1a18a4ef8ce7f50e5c"
@@ -241,6 +246,11 @@
       "bytes": 2273,
       "path": "docs/governance/kernel-mapping.md",
       "sha256": "f65447926b782b10f9f9fcdcce3cb98865ea2fe84ce7cb42545fdd5037b4beda"
+    },
+    {
+      "bytes": 1832,
+      "path": "docs/human-validation-receipt-template.json",
+      "sha256": "f06b3529d2e456b04488950b75c94500854b80e60b0c3d512cc937a9ab9a00ae"
     },
     {
       "bytes": 449,

@@ -89,7 +89,7 @@ python3 tools/run_automated_acceptance.py \
 
 [`VERIFICATION.md`](VERIFICATION.md) separates automated evidence from remaining human, accessibility, Godot, Windows, and operational gates. Passing source checks does not establish those claims.
 
-Use the [Real-World Evaluation Kit](docs/REAL-WORLD-EVALUATION-KIT.md) to conduct and record human UAT, accessibility testing, and pilot evaluation without conflating automated checks with human evidence.
+Use the [Real-World Evaluation Kit](docs/REAL-WORLD-EVALUATION-KIT.md) to conduct and record human UAT, accessibility testing, and pilot evaluation without conflating automated checks with human evidence. Stable-release human validation tracks and the receipt are in the [Stable Human Validation Kit](docs/STABLE-HUMAN-VALIDATION-KIT.md).
 
 ## Boundaries
 

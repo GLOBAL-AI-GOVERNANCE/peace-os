@@ -1,0 +1,38 @@
+{
+  "receipt_version": "1.0.0",
+  "product_version_tested": "0.3.0-rc2",
+  "tested_commit": "8a40d94fcee14a6d6eb76782319bb90f0cec6202",
+  "tested_tree": "d92212c36535b8e196805d24667a952bb148ccdf",
+  "build_source": "rc2-tag-local",
+  "build_source_values": ["rc2-tag-local", "main-pages", "stable-candidate"],
+  "tested_at_utc": "",
+  "tester_public_attribution": "",
+  "tester_separate_from_project": false,
+  "environment": {
+    "browser": "",
+    "browser_version": "",
+    "operating_system": "",
+    "device": "",
+    "input_or_assistive_technology": "",
+    "assistive_technology_version": "",
+    "settings": ""
+  },
+  "result_values": ["PASS", "FAIL", "NOT_TESTED"],
+  "tracks": {
+    "T1_keyboard_only": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""},
+    "T2_screen_reader": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""},
+    "T3_zoom_reflow": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""},
+    "T4_physical_mobile": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""},
+    "T5_firefox": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""},
+    "T6_safari_webkit": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""},
+    "T7_print_pdf": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""},
+    "T8_reduced_motion_forced_colors": {"result": "NOT_TESTED", "evidence_refs": [], "defects": [], "notes": ""}
+  },
+  "subject_matter_and_learning": {"result": "NOT_TESTED", "method": "", "evidence_refs": [], "notes": "Separate evidence class; not affected by usability tracks."},
+  "attestation": {
+    "usability_not_wcag_conformance_acknowledged": false,
+    "no_personal_data_included": false,
+    "results_unmodified": false
+  },
+  "limitations": ""
+}
