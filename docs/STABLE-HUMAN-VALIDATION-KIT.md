@@ -39,9 +39,9 @@ These holds are outside this kit and need their own evidence: Godot runtime, Win
 
 ## Evidence rules
 
-- Evidence references are public-safe: issue comments, attached screenshots without personal data, or published notes. Do not include names of participants, accounts, private URLs, or device identifiers.
+- Evidence references are public-safe. Do not include names of participants, accounts, private URLs, or device identifiers.
 - Record defects using the defect record in the Real-World Evaluation Kit.
-- Submit one [receipt](human-validation-receipt-template.json) per tester, per build, and per environment.
+- Each evidence set requires one [receipt](human-validation-receipt-template.json) per tester, build, and environment.
 
 ## Known visible discrepancies
 
