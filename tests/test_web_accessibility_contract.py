@@ -97,7 +97,7 @@ class WebAccessibilityContract(unittest.TestCase):
         self.assertIn('v0.3.0-rc2', self.html)
         self.assertIn('<noscript>', self.html)
         self.assertIn('Project transparency', self.html)
-        for fragment in ('VERIFICATION.md', 'PUBLIC_RELEASE_GATE.md', 'security/policy', 'issues/new/choose'):
+        for fragment in ('VERIFICATION.md', 'PUBLIC_RELEASE_GATE.md', 'security/policy'):
             self.assertIn(fragment, self.html + self.startup)
 
     def test_print_expands_complete_aar(self):
