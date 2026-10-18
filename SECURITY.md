@@ -1,10 +1,10 @@
 # Security Policy
 
+This repository does not operate an external security-report intake. Do not place secrets, credentials, personal data, sensitive operational information, or vulnerability material in public GitHub surfaces.
+
 ## Scope
 
 This repository contains a fictional offline simulation. It does not contain a live AI agent, external-action executor, authentication service, production backend, or real incident feed.
-
-Report sensitive repository-integrity, unsafe-content, secret-exposure, supply-chain, or release-artifact concerns through GitHub private vulnerability reporting when enabled. Do not include real classified, controlled, personal, or incident-sensitive information in reports.
 
 ## Supported version
 

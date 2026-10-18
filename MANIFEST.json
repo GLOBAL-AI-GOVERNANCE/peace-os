@@ -1,16 +1,11 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 161,
+  "file_count": 158,
   "files": [
     {
       "bytes": 180,
       "path": ".gitattributes",
       "sha256": "a6a4daeb937338e4f047f07dc26a28c84cec056c88a3342f76cd62e3273526f1"
-    },
-    {
-      "bytes": 505,
-      "path": ".github/pull_request_template.md",
-      "sha256": "8f8cb465f8a764efe42f51cbf66dcc778f982224f114011a6b60037b76e81fe2"
     },
     {
       "bytes": 1847,
@@ -43,16 +38,6 @@
       "sha256": "94e1c5d34f8e5cdeb4064fdf478c89976eb0d1317c4ed612152c8003d52c4778"
     },
     {
-      "bytes": 416,
-      "path": "CODE_OF_CONDUCT.md",
-      "sha256": "e46514c31458439a8f023a8d2d595b68077fc19a3bd0c8f1e356fa06cccabd9d"
-    },
-    {
-      "bytes": 991,
-      "path": "CONTRIBUTING.md",
-      "sha256": "a3beca7e9e70994e4a1cc8eeb0e22011a23625a5eee279b93e2bce250d94a122"
-    },
-    {
       "bytes": 709,
       "path": "DOCTRINE.md",
       "sha256": "d5af2f496603eb3e9b7f8aa3ace9247e8409a8237e0666846f40d4820f87e8c1"
@@ -68,9 +53,9 @@
       "sha256": "5219e8a8a086b91f8b65159720cd3e18b2777107856e344b43db2be74e442d90"
     },
     {
-      "bytes": 6668,
+      "bytes": 6356,
       "path": "README.md",
-      "sha256": "a72503f78ebbdc67f29ee9576923f12915ea2b10fd50c06fdba7d62c28a8c809"
+      "sha256": "2f4ba29cd28a4f7298d1813f3814cc09f7ab691405a2dd0ac568964515091256"
     },
     {
       "bytes": 1149,
@@ -83,9 +68,9 @@
       "sha256": "7a7edbe4eeeec0945400503d059dec7d56bb53057573e9845691d192d9630914"
     },
     {
-      "bytes": 926,
+      "bytes": 857,
       "path": "SECURITY.md",
-      "sha256": "7f2ea73e95c44dd50ca44bbf84b09be21cdbcb9a2401534a2282ccc16bff9925"
+      "sha256": "20589b191c2e3e53062b79ab127e9be11b8c4a60548f52f6fc5851a0730bc99d"
     },
     {
       "bytes": 4656,
@@ -153,9 +138,9 @@
       "sha256": "f087b23a29bd5b53c30cb53317feaf54217395b76b4aa9b321836af5a37170a1"
     },
     {
-      "bytes": 4829,
+      "bytes": 4761,
       "path": "docs/STABLE-HUMAN-VALIDATION-KIT.md",
-      "sha256": "844f08a41098c098ff13894cd9fc49239be401080580875b6bf0184685dc3bbf"
+      "sha256": "f0f5c1093daa67b71d16360c3d48061bdcce99a005f443e976353da4cc97f88a"
     },
     {
       "bytes": 1633,
@@ -188,9 +173,9 @@
       "sha256": "629600086efec19879fc7e3da85f23db6fdf86ff6bc93c2ab34bcf53d6c46c06"
     },
     {
-      "bytes": 1408,
+      "bytes": 2319,
       "path": "docs/automated-acceptance.md",
-      "sha256": "73b012151be9b686e7701e444808f7d2d7a71d112b12fd8f1865057b8a81d7c4"
+      "sha256": "b564c3b3694d861967fc344560a0ba3f7db4902d3831fe412c376470952e3625"
     },
     {
       "bytes": 1146,
@@ -778,9 +763,9 @@
       "sha256": "37da05306325bba819690e0e16aea979c20963f3999bd234c7f142768b6a5508"
     },
     {
-      "bytes": 4374,
+      "bytes": 4296,
       "path": "web/index.html",
-      "sha256": "f3b807217d9237aa5196f0df49a946c10ecd31a682ad2e2dfb33e8361b6929c5"
+      "sha256": "19c7f514829d6eb98fc73690c4fcc050fe76a1e68c7d445c6985f9411aa7be06"
     },
     {
       "bytes": 410,
