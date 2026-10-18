@@ -663,9 +663,9 @@
       "sha256": "d5dc3632ddbf2c569eb13cf7c39ba54cc92911ffe7616735fd914e474078b7d0"
     },
     {
-      "bytes": 4500,
+      "bytes": 4525,
       "path": "tools/test_check_pr_identity.py",
-      "sha256": "7680a822c4e4be9b32e27c4fca3944d9d21fa0cda60b25687cfe1aa54955bf3f"
+      "sha256": "740d5384f0c76c00b48e9f884e29932f317ac02763ca409eb72fd98c3fe95080"
     },
     {
       "bytes": 843,
