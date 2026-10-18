@@ -25,7 +25,7 @@ const checks = [
   ['noscript guidance', /<noscript>/], ['startup failure guidance', /Unable to start the simulation/],
   ['repository link', /Project transparency/], ['verification link', /VERIFICATION\.md/],
   ['release link', /releases\/tag\/v0\.3\.0-rc2/], ['security link', /security\/policy/],
-  ['issue link', /issues\/new\/choose/], ['post-action focus', /download-aar-button/],
+  ['post-action focus', /download-aar-button/],
 ];
 const failures = checks.filter(([, expression]) => !expression.test(combined)).map(([name]) => name);
 if (failures.length) throw new Error(`Web static checks failed: ${failures.join(', ')}`);

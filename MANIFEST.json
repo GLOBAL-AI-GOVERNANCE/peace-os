@@ -1,41 +1,11 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 167,
+  "file_count": 161,
   "files": [
     {
       "bytes": 180,
       "path": ".gitattributes",
       "sha256": "a6a4daeb937338e4f047f07dc26a28c84cec056c88a3342f76cd62e3273526f1"
-    },
-    {
-      "bytes": 599,
-      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
-      "sha256": "3c328b98e7d4245b03a2dbb9ab18f849c75a89b3fa8dcc424de95774fbaf5387"
-    },
-    {
-      "bytes": 229,
-      "path": ".github/ISSUE_TEMPLATE/config.yml",
-      "sha256": "24a24e9addcf6df6f181b0241bad1684447ac46a4bf98c0aaa6df7cdd3122e98"
-    },
-    {
-      "bytes": 377,
-      "path": ".github/ISSUE_TEMPLATE/governance_defect.md",
-      "sha256": "238d824454f92d5b3ffa69ca1fa8b857dc22f87c6935e4c3bb74c8e550d5f60c"
-    },
-    {
-      "bytes": 1018,
-      "path": ".github/ISSUE_TEMPLATE/runtime_test_report.md",
-      "sha256": "746aaa8596d3a76aae6e83d6bec2bee7255a8d8cadeb2463ba58fe5c6b63ccb3"
-    },
-    {
-      "bytes": 755,
-      "path": ".github/ISSUE_TEMPLATE/scenario_suggestion.md",
-      "sha256": "ae05ddbb16e358d4c5a3f5212c839480b074ceb953e95ae8ac02677f5c699cf7"
-    },
-    {
-      "bytes": 259,
-      "path": ".github/dependabot.yml",
-      "sha256": "571f7d0740af3cc23874c2e744498dc883556de027904b642d2ec6a1ebacb93d"
     },
     {
       "bytes": 505,
@@ -508,9 +478,9 @@
       "sha256": "fafc3979201b41c801dfa476ac37d41a3afb0e80c5d21a5c3eca3770479223a9"
     },
     {
-      "bytes": 2607,
+      "bytes": 2568,
       "path": "tests/js/web-static-check.mjs",
-      "sha256": "18e148d650c27e454c428dffa79f6b92cb02bc00972053b4ac16b2f5c5388e8b"
+      "sha256": "0e66daa5e6859e8739768fae06bafb0c814ebf1484dd4b88f0ed47ad7bc6cbc3"
     },
     {
       "bytes": 11872,
@@ -593,9 +563,9 @@
       "sha256": "f0798d55809ff7503b4b0d31963e8504789139b57317dfe231f5d8bad7c9d461"
     },
     {
-      "bytes": 5390,
+      "bytes": 5369,
       "path": "tests/test_web_accessibility_contract.py",
-      "sha256": "73a669852d5bc192d203f151895bf232a5718c03fa6199bde2569141b468516f"
+      "sha256": "076ffc605f4c79978b828feafa023cdf9f0983705ee429a3f9ce5bed34ec692a"
     },
     {
       "bytes": 1259,
@@ -753,9 +723,9 @@
       "sha256": "592b8a25b64d824010d6c4a1f03cbc2d792dac363d1c097f759080c6f2bfb27f"
     },
     {
-      "bytes": 45441,
+      "bytes": 45340,
       "path": "web/app.js",
-      "sha256": "ffa2ad46c6d2568f8bb2db27eb0aafe3a788cdaa3ddfdb30567d671bc1d27846"
+      "sha256": "8f1dc4f6852b9bb170e1d409d907ed0ae214683b166588cd2bf4e154625281e3"
     },
     {
       "bytes": 356,
@@ -808,9 +778,9 @@
       "sha256": "37da05306325bba819690e0e16aea979c20963f3999bd234c7f142768b6a5508"
     },
     {
-      "bytes": 4477,
+      "bytes": 4374,
       "path": "web/index.html",
-      "sha256": "8852c60e04ee82c7fe9c24fa42bd2199cfd01a3e478d90219f3fba3632c61ea5"
+      "sha256": "f3b807217d9237aa5196f0df49a946c10ecd31a682ad2e2dfb33e8361b6929c5"
     },
     {
       "bytes": 410,
@@ -828,9 +798,9 @@
       "sha256": "eeaa6a2c58c8b4714e446ad357c734c60003948dd00898aef475ab1e96048bf5"
     },
     {
-      "bytes": 1282,
+      "bytes": 1177,
       "path": "web/startup-guard.js",
-      "sha256": "7f829612310dc11ba289a907ae495b181c5ed591ded07ef10ab69518360294a3"
+      "sha256": "895c1b984ad9422acf2f3fce54f12ecba25e4a551c641bfaaf4004b35b06fa38"
     },
     {
       "bytes": 7996,
