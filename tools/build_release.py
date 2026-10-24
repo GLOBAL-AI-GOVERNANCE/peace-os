@@ -148,6 +148,8 @@ def main() -> None:
             data = (ROOT / relative).read_bytes()
             info = zipfile.ZipInfo(f'peace-os-crisis-room-v{version}/{relative.as_posix()}', fixed_zip_time)
             info.compress_type = zipfile.ZIP_DEFLATED
+            # Record Unix as the creating system so the archive does not depend on the build host OS.
+            info.create_system = 3
             info.external_attr = (0o755 if relative.suffix == '.sh' else 0o644) << 16
             bundle.writestr(info, data, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
 

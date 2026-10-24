@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 158,
+  "file_count": 159,
   "files": [
     {
       "bytes": 180,
@@ -21,6 +21,11 @@
       "bytes": 779,
       "path": ".github/workflows/pr-identity.yml",
       "sha256": "a1e28cce4abecbfd9fc16471be28c70c5098994703e0c7c60e5b18a19753edb7"
+    },
+    {
+      "bytes": 3176,
+      "path": ".github/workflows/release-assets.yml",
+      "sha256": "583141c917c521081e2d5cd6b3c07e6a5f5b70ba75eb0e629ecbd1e26629b6b6"
     },
     {
       "bytes": 748,
@@ -578,9 +583,9 @@
       "sha256": "abc691c1b949d252ffb212353d80a14e318d05e75a951485c07196ab74405563"
     },
     {
-      "bytes": 10158,
+      "bytes": 10295,
       "path": "tools/build_release.py",
-      "sha256": "928cbe45ef068c087f9d3887f01f4b3c8de7563377c77aaa10126e6bcbf7ce0f"
+      "sha256": "f70acd435dd0e1b1b85b37427822b40d444b8ff173f37bd1abdce19e481e8bda"
     },
     {
       "bytes": 1014,
