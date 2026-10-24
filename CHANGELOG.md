@@ -5,6 +5,11 @@ Current public repository: `GLOBAL-AI-GOVERNANCE/peace-os`. Current Pages locati
 
 # Changelog
 
+## Unreleased
+
+- Publishes the operating-disposition reference schema at its GitHub Pages identifier, `https://global-ai-governance.github.io/peace-os/schemas/operating-disposition-reference.schema.json`; schema content is unchanged apart from `$id`.
+- Adds a schema identifier check in CI and a post-deployment check that each published identifier resolves to the same document.
+
 ## v0.3.0-rc2 - Primer Closure and Contract Hardening
 
 - Centralizes public product, policy, scoring, scenario, session, AAR, and audit metadata.

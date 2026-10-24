@@ -36,6 +36,8 @@ jobs:
           node-version: "22"
       - name: Validate source and cross-client contracts
         run: python tools/validate_repository.py
+      - name: Schema identifiers
+        run: python tools/check_schema_ids.py
       - name: Verify deterministic inventory
         run: python tools/generate_manifest.py --check
       - name: Build source package twice

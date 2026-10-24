@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 159,
+  "file_count": 160,
   "files": [
     {
       "bytes": 180,
@@ -8,14 +8,14 @@
       "sha256": "a6a4daeb937338e4f047f07dc26a28c84cec056c88a3342f76cd62e3273526f1"
     },
     {
-      "bytes": 1847,
+      "bytes": 1926,
       "path": ".github/workflows/ci.yml",
-      "sha256": "f9c66528dd0d5bb345b5bfad0ba4d083922c9686d469d5c94461104f3bb04267"
+      "sha256": "4af57e67fbe17da22bf9f648396e3995bb02ee85508e7e1f28bd644bc0950e5c"
     },
     {
-      "bytes": 5213,
+      "bytes": 5317,
       "path": ".github/workflows/pages.yml",
-      "sha256": "c63e4b13cbaf421b7ccb263ae6ea5dc41ae3b27f08d7e4bdf650623b2841cb5f"
+      "sha256": "cf664e5f229b102fd9133ce5d54f824bc247bb557bab0f0c85034bf6b56f9a7e"
     },
     {
       "bytes": 779,
@@ -33,9 +33,9 @@
       "sha256": "5a8beb9049d239c29d0bef75898253e644911e78972d344e79ed0818fb591317"
     },
     {
-      "bytes": 2707,
+      "bytes": 3088,
       "path": "CHANGELOG.md",
-      "sha256": "b7d2924e826b3104d749577e5d4b8e63ca19e73b5f343f830da0c66dec161ca9"
+      "sha256": "44d822572b79baa0f7166f058498cb5843edadd9f6438b3ac702bb4819ee3687"
     },
     {
       "bytes": 337,
@@ -378,9 +378,9 @@
       "sha256": "febb8acd777a8db4b3e1b579fb4cb07421c96cbdfd6372ef76bb6faa5a58e423"
     },
     {
-      "bytes": 1332,
+      "bytes": 1331,
       "path": "schemas/operating-disposition-reference.schema.json",
-      "sha256": "7d759e0650d05e1b151e1e8f13cb110fdf87e90f9ece1854bf7871496e35d5b8"
+      "sha256": "d0d565a19bf536a3c0d1691fa76ddea0ca669bb08359f313b18359d67a9ba62a"
     },
     {
       "bytes": 633,
@@ -621,6 +621,11 @@
       "bytes": 1931,
       "path": "tools/check_scenario_consistency.py",
       "sha256": "557777947599f20a32001ccedaa4f0ac2655a7c7eb0a55db1b0d0a0a9c38c259"
+    },
+    {
+      "bytes": 4485,
+      "path": "tools/check_schema_ids.py",
+      "sha256": "df1c8a451ccdb9b89a9797afa23a7b6b98bc9fdf4fd184683bbf71e5b4a45c82"
     },
     {
       "bytes": 2139,
