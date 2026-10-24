@@ -643,9 +643,9 @@
       "sha256": "9caf2684957d10ac4bb2d0af611de4a469c990e17376987dc8372b5be37d2363"
     },
     {
-      "bytes": 12002,
+      "bytes": 12040,
       "path": "tools/run_automated_acceptance.py",
-      "sha256": "892c166a8f9428d5a3b78690bd24407f37ee13c9ca84534be2a698e22e48db68"
+      "sha256": "4ec2063c5bb36c3fa87627e89d5d7b78ce2b143e60bcabbb6bafac0165b5b76c"
     },
     {
       "bytes": 6041,
@@ -718,9 +718,9 @@
       "sha256": "8f1dc4f6852b9bb170e1d409d907ed0ae214683b166588cd2bf4e154625281e3"
     },
     {
-      "bytes": 356,
+      "bytes": 334,
       "path": "web/assets/icon.svg",
-      "sha256": "76ad46488be79dccb77855d21a0d107277a42b0b05649e0fbedbd2a71c24c3f2"
+      "sha256": "7fc177f9e212ae6f229ce51ededc626eeac9cbd4c93a6b06a5e47ca708c5be6b"
     },
     {
       "bytes": 2221,
@@ -768,14 +768,14 @@
       "sha256": "37da05306325bba819690e0e16aea979c20963f3999bd234c7f142768b6a5508"
     },
     {
-      "bytes": 4302,
+      "bytes": 4396,
       "path": "web/index.html",
-      "sha256": "a9264f525f771a70801521a2bd477da227fa02e8e86af8c9085bdcb13da6b057"
+      "sha256": "5b109b774a45a58b7c6b2c56165f55b7974447f158129d2c689d4f1d99628e9e"
     },
     {
       "bytes": 410,
       "path": "web/manifest.webmanifest",
-      "sha256": "69037daa8db33d791a9c0271e4236cefbf34b06c96125d7603fe14ed4fdb6726"
+      "sha256": "8c0afcf52a3c3ac888e83664a2160ba467149ffed5f410851e1613d9242b7f57"
     },
     {
       "bytes": 7605,
@@ -793,9 +793,9 @@
       "sha256": "895c1b984ad9422acf2f3fce54f12ecba25e4a551c641bfaaf4004b35b06fa38"
     },
     {
-      "bytes": 8006,
+      "bytes": 13762,
       "path": "web/styles.css",
-      "sha256": "a9131c5751f4a67e3d3d4f12cc16c213a16e6a56e7bd502a86af1b0a52ad1eaa"
+      "sha256": "39c0457d940a2fc8fa720ceb3cae50d93cca80dae3842e8eb991f0e1cf8d7f53"
     }
   ],
   "hash_algorithm": "sha256",
