@@ -1,20 +1,18 @@
 # Peace OS: Crisis Room
 
 <!-- gaig:nav -->
-**[Global AI Governance](https://ai-governance.solutions/)** · `v0.3.0-rc2 · review candidate` · `authority_effect: NONE`
+**[Global AI Governance](https://ai-governance.solutions/)** · `v0.3.0-rc2 · available` · `authority_effect: NONE`
 
 [Connect your agent](https://ai-governance.solutions/connect.html#agents) · [Specifications](https://ai-governance.solutions/connect.html#spec) · [All products](https://ai-governance.solutions/#products)
 <!-- /gaig:nav -->
 
-A fictional, local-only simulation for practicing evidence review, civilian protection, responsible public language, and human-controlled crisis decisions.
+A crisis-room simulator for weighing evidence, protecting civilians, choosing responsible public language, and keeping the final decision with people. Scenarios are synthetic, and everything runs locally in your browser.
 
 > Verification before amplification. Human control before release.
 
-**Release status:** `v0.3.0-rc2` Public browser review candidate
+**Release status:** `v0.3.0-rc2` · available in your browser. Independent human validation (assistive technology, cross-browser, real-device, and learning review) is open before a stable release; see [Release limits](PUBLIC_RELEASE_GATE.md). Earlier `v0.2.x` releases are superseded.
 
-> Current public review candidate: `v0.3.0-rc2`. Earlier `v0.2.x` releases are historical and superseded.
-
-**Expected exercise time:** 15–25 minutes
+**Session time:** 15–25 minutes
 
 **Privacy:** local browser session data with no application account, application telemetry, backend, external AI, or live operational feed
 
@@ -24,7 +22,7 @@ A fictional, local-only simulation for practicing evidence review, civilian prot
 
 ## Quick start
 
-1. Choose a fictional scenario and mode.
+1. Choose a synthetic scenario and mode.
 2. Review every evidence item and commit a bounded human decision.
 3. Read, download, copy, or print the After-Action Review.
 
@@ -66,7 +64,7 @@ Session state remains in browser-local storage when available. The experience co
 ## Repository map
 
 ```text
-core/       Authoritative fictional scenarios, policy, scoring, and language
+core/       Authoritative synthetic scenarios, policy, scoring, and language
 web/        Semantic browser client
 game/       Experimental Godot desktop client, not runtime-verified here
 schemas/    Governance and AAR schemas
@@ -93,7 +91,7 @@ Use the [Real-World Evaluation Kit](docs/REAL-WORLD-EVALUATION-KIT.md) to conduc
 
 ## Boundaries
 
-Peace OS is the product name. This project is not a computer operating system. It is not an intelligence product, media-authentication tool, emergency-response platform, legal-attribution engine, certification product, or autonomous release authority. It uses fictional scenarios and does not authorize real-world publication or action.
+Peace OS is the product name. This project is not a computer operating system. It is not an intelligence product, media-authentication tool, emergency-response platform, legal-attribution engine, certification product, or autonomous release authority. It uses synthetic scenarios and does not authorize real-world publication or action.
 
 ## Security, verification, and citation
 
@@ -106,7 +104,7 @@ MIT licensed. See [`LICENSE`](LICENSE).
 <!-- gaig:footer -->
 ## Part of Global AI Governance
 
-Peace OS: Crisis Room is the **DECIDE + LEARN** layer: a fictional, local-only exercise in human-controlled crisis decisions.
+Peace OS: Crisis Room is the **DECIDE + LEARN** layer: a local crisis-decision simulator where people keep the final decision.
 
 **[ai-governance.solutions](https://ai-governance.solutions/)** · [Connect your agent](https://ai-governance.solutions/connect.html#agents) · [Specifications](https://ai-governance.solutions/connect.html#spec) · [All products](https://ai-governance.solutions/#products)
 

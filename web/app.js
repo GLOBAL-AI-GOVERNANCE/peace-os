@@ -955,7 +955,7 @@ async function init() {
     return response.json();
   });
   const releaseStatus = document.getElementById('release-status');
-  if (releaseStatus) releaseStatus.innerHTML = `<strong>${esc(metadata.product_version)}</strong> · ${esc(metadata.release_status)} · Fictional and local-session only`;
+  if (releaseStatus) releaseStatus.innerHTML = `<strong>${esc(metadata.product_version)}</strong> · Available in your browser · Synthetic scenarios, local session`;
   policy = await fetch('./data/governance/policy.json').then(response => response.json());
   const index = await fetch('./data/scenarios/index.json').then(response => response.json());
   for (const item of index.scenarios) scenarios[item.id] = await fetch(`./data/scenarios/${item.file}`).then(response => response.json());
