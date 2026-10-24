@@ -70,6 +70,17 @@ jobs:
             --repository "${GITHUB_REPOSITORY}" \
             --run-id "${GITHUB_RUN_ID}" \
             --run-attempt "${GITHUB_RUN_ATTEMPT}"
+      - name: Publish schemas at their declared $id URLs
+        run: |
+          python - <<'PY'
+          import json, pathlib, shutil
+          base = "https://global-ai-governance.github.io/peace-os/schemas/"
+          out = pathlib.Path("web/schemas")
+          out.mkdir(exist_ok=True)
+          for path in sorted(pathlib.Path("schemas").glob("*.schema.json")):
+              if json.loads(path.read_text(encoding="utf-8")).get("$id") == base + path.name:
+                  shutil.copyfile(path, out / path.name)
+          PY
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
         with:

@@ -33,6 +33,7 @@ required = {
     'deployed UAT verifier': 'tools/verify_deployed_uat.py',
     'deployed evidence upload': 'Publish exact deployed UAT evidence',
     'evidence checksum ledger': 'deployed-uat-SHA256SUMS.txt',
+    'schema $id publication': 'Publish schemas at their declared $id URLs',
 }
 for label, marker in required.items():
     if marker not in text:
