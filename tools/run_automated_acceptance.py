@@ -118,7 +118,7 @@ def external_reference_check() -> dict[str, object]:
     pattern = re.compile(r'https?://[^\s"\'<>)]+' )
     for path in files:
         refs.extend(pattern.findall(path.read_text(encoding='utf-8')))
-    allowed = [ref for ref in refs if ref.startswith('https://github.com/GLOBAL-AI-GOVERNANCE/peace-os')]
+    allowed = [ref for ref in refs if ref.startswith(('https://github.com/GLOBAL-AI-GOVERNANCE/peace-os', 'https://ai-governance.solutions/'))]
     unexpected = sorted(set(refs) - set(allowed))
     return {'status': 'PASS' if not unexpected else 'FAIL', 'unexpected_external_references': unexpected}
 

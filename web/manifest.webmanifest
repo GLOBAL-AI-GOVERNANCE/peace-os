@@ -3,8 +3,8 @@
   "short_name": "Crisis Room",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f7f5f0",
-  "theme_color": "#14263d",
+  "background_color": "#ffffff",
+  "theme_color": "#0a0a0a",
   "description": "Fictional local-only crisis verification and human-governance simulation.",
   "icons": [
     {
