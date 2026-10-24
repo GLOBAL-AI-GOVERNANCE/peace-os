@@ -13,9 +13,9 @@
       "sha256": "f9c66528dd0d5bb345b5bfad0ba4d083922c9686d469d5c94461104f3bb04267"
     },
     {
-      "bytes": 4680,
+      "bytes": 5213,
       "path": ".github/workflows/pages.yml",
-      "sha256": "4670c26fc6d82f43bca42defd3c4617943d923ae35a5d5701b1b9a0e30028fd7"
+      "sha256": "c63e4b13cbaf421b7ccb263ae6ea5dc41ae3b27f08d7e4bdf650623b2841cb5f"
     },
     {
       "bytes": 779,
@@ -623,9 +623,9 @@
       "sha256": "557777947599f20a32001ccedaa4f0ac2655a7c7eb0a55db1b0d0a0a9c38c259"
     },
     {
-      "bytes": 2063,
+      "bytes": 2139,
       "path": "tools/check_workflows.py",
-      "sha256": "c31c8f2d69daeeca17900fd099712f364f7f2d2832d8537496acd482c149066f"
+      "sha256": "cc7ee551d1b8dc14a572f3515ae74477f082284338ddb7c9fbc823d1b62c6553"
     },
     {
       "bytes": 2862,
