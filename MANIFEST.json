@@ -33,9 +33,9 @@
       "sha256": "5a8beb9049d239c29d0bef75898253e644911e78972d344e79ed0818fb591317"
     },
     {
-      "bytes": 3088,
+      "bytes": 3448,
       "path": "CHANGELOG.md",
-      "sha256": "44d822572b79baa0f7166f058498cb5843edadd9f6438b3ac702bb4819ee3687"
+      "sha256": "0f41cec5f7c3aef3e124e3f3765a39957e3090f4a9412423db8d146537092f88"
     },
     {
       "bytes": 337,
@@ -773,9 +773,9 @@
       "sha256": "37da05306325bba819690e0e16aea979c20963f3999bd234c7f142768b6a5508"
     },
     {
-      "bytes": 4396,
+      "bytes": 4412,
       "path": "web/index.html",
-      "sha256": "5b109b774a45a58b7c6b2c56165f55b7974447f158129d2c689d4f1d99628e9e"
+      "sha256": "57f09f821db18fe5bc6b130d06214111c27abf53acb4ddb4d9a4d4288c6cb2d4"
     },
     {
       "bytes": 410,
@@ -798,9 +798,9 @@
       "sha256": "895c1b984ad9422acf2f3fce54f12ecba25e4a551c641bfaaf4004b35b06fa38"
     },
     {
-      "bytes": 13762,
+      "bytes": 16082,
       "path": "web/styles.css",
-      "sha256": "39c0457d940a2fc8fa720ceb3cae50d93cca80dae3842e8eb991f0e1cf8d7f53"
+      "sha256": "91b2fb7fe3e35609d17728aaebc1ef034c6270a30c0d45d702a44bfc17557a1f"
     }
   ],
   "hash_algorithm": "sha256",

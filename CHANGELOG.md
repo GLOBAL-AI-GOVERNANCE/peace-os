@@ -9,6 +9,8 @@ Current public repository: `GLOBAL-AI-GOVERNANCE/peace-os`. Current Pages locati
 
 - Publishes the operating-disposition reference schema at its GitHub Pages identifier, `https://global-ai-governance.github.io/peace-os/schemas/operating-disposition-reference.schema.json`; schema content is unchanged apart from `$id`.
 - Adds a schema identifier check in CI and a post-deployment check that each published identifier resolves to the same document.
+- Adds the shared design tokens v2 in light form: a hairline grid field and a luminous rule under the introduction, wider label tracking, and a quiet hover glow on buttons. The rule draws once and stays still under reduced motion. Simulation behavior is unchanged.
+- Reserves space for the progress bar before it renders, so the page no longer shifts on load.
 
 ## v0.3.0-rc2 - Primer Closure and Contract Hardening
 
