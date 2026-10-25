@@ -3,7 +3,9 @@
 <!-- gaig:nav -->
 **[Global AI Governance](https://ai-governance.solutions/)** · `v0.3.0-rc2 · available` · `authority_effect: NONE`
 
-[Connect your agent](https://ai-governance.solutions/connect.html#agents) · [Specifications](https://ai-governance.solutions/connect.html#spec) · [All products](https://ai-governance.solutions/#products)
+[Start where you are](https://ai-governance.solutions/start.html) · [Connect your agent](https://ai-governance.solutions/connect.html#agents) · [Specifications](https://ai-governance.solutions/connect.html#spec) · [All products](https://ai-governance.solutions/#products)
+
+Suite path, step 1 of 9: practise a decision · [Toolkit](https://github.com/GLOBAL-AI-GOVERNANCE/global-ai-governance-toolkit) → · [start anywhere](https://ai-governance.solutions/start.html)
 <!-- /gaig:nav -->
 
 A crisis-room simulator for weighing evidence, protecting civilians, choosing responsible public language, and keeping the final decision with people. Scenarios are synthetic, and everything runs locally in your browser.
