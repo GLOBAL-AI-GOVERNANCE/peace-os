@@ -1,10 +1,10 @@
 # Public Release Gate
 
-## `v0.3.0-rc2` prerelease scope
+## `v0.3.0-rc3` prerelease scope
 
 The approved public label is:
 
-> **Peace OS: Crisis Room v0.3.0-rc2: Primer Closure and Contract Hardening**
+> **Peace OS: Crisis Room v0.3.0-rc3: Suite Path and Publication Hardening**
 
 A prerelease may be published after:
 
@@ -15,19 +15,25 @@ A prerelease may be published after:
 - deployed asset and browser-journey validation passes for that exact commit with no console errors or unexpected external requests;
 - source, provenance, release SBOM, checksums, and acceptance reports are generated against the same final commit;
 - downloaded release assets reverify;
-- repository, release, tag, Pages, and public profile surfaces agree on the RC2 prerelease state.
+- repository, release, tag, Pages, and public profile surfaces agree on the RC3 prerelease state.
 
-For this RC2 prerelease, exact deployed automated UAT is the publication gate. Human keyboard, cross-browser, screen-reader, print/PDF, physical-device, and learning validation remain separate stable or post-publication evidence tracks and are not claimed by RC2.
+For this RC3 prerelease, exact deployed automated UAT is the publication gate. Human keyboard, cross-browser, screen-reader, print/PDF, physical-device, and learning validation remain separate stable or post-publication evidence tracks and are not claimed by RC3.
 
-## RC2 publication record
+## RC3 publication record
+
+- Public prerelease: pending tag `v0.3.0-rc3`
+- Exact release commit: pending merge of the RC3 candidate
+- Exact deployed Pages workflow: pending
+- Commit-bound deployed-UAT artifact: pending `peace-os-v0.3.0-rc3-deployed-uat-<sha>`
+- Artifact digest: pending
+
+## Prior RC2 publication record
 
 - Public prerelease: [`v0.3.0-rc2`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v0.3.0-rc2)
 - Exact release commit: `aa6d8f75ce755fd143a4aa457eadf91b54604bd5`
 - Exact deployed Pages workflow: [`30897461431`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/actions/runs/30897461431) — **PASS**
 - Commit-bound deployed-UAT artifact: `peace-os-v0.3.0-rc2-deployed-uat-aa6d8f75ce755fd143a4aa457eadf91b54604bd5`
 - Artifact digest: `sha256:32c3ad4b4176816e310d1ea4694b6556fa255e6408e56e16b4f572fcd4952e4c`
-- Ten custom release and evidence assets were downloaded and independently reverified after publication.
-- Post-release documentation or workflow maintenance may advance `main` and Pages without moving the RC2 tag or replacing the verified release assets.
 
 ## Web security boundary
 
@@ -49,4 +55,4 @@ The following remain HOLD until independently evidenced:
 
 The browser prerelease is a public review candidate, not a stable or certified product.
 
-The historical Pages run above was recorded against the former repository identity. Current repository identity is `GLOBAL-AI-GOVERNANCE/peace-os`.
+Current repository identity is `GLOBAL-AI-GOVERNANCE/peace-os`.

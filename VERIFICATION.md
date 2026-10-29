@@ -1,6 +1,6 @@
 # Verification
 
-This is the controlling public verification matrix for `v0.3.0-rc2`.
+This is the controlling public verification matrix for `v0.3.0-rc3`.
 
 | Evidence class | Current status | Meaning |
 |---|---|---|
@@ -11,7 +11,7 @@ This is the controlling public verification matrix for `v0.3.0-rc2`.
 | Extended reference-model analysis | **PASS** | 2,097,152 evidence-marking patterns and 23,552 decision states were exercised; random marking produced no Excellent outcomes. |
 | Semantic web source contract | **PASS** | Neutral start, commit-before-results, focus, native controls, local-only behavior, and failure fallbacks are contract-tested. |
 | Automated local browser journeys | **PASS with environment boundary** | Both scenarios, all modes, result controls, persistence, failure paths, keyboard entry, and 320-pixel layout passed in bounded local browser validation. |
-| Deployed GitHub Pages browser validation | **PASS** | [Pages run `30897461431`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/actions/runs/30897461431) deployed exact RC2 release commit `aa6d8f75ce755fd143a4aa457eadf91b54604bd5`. The full public browser journey suite passed and published commit-bound evidence artifact `peace-os-v0.3.0-rc2-deployed-uat-aa6d8f75ce755fd143a4aa457eadf91b54604bd5` with digest `sha256:32c3ad4b4176816e310d1ea4694b6556fa255e6408e56e16b4f572fcd4952e4c`. |
+| Deployed GitHub Pages browser validation | **PENDING** | RC3 publication gate: exact deployed automated UAT against the RC3 release commit after merge. Prior RC2 evidence: Pages run `30897461431` / commit `aa6d8f75ce755fd143a4aa457eadf91b54604bd5` / artifact `peace-os-v0.3.0-rc2-deployed-uat-aa6d8f75ce755fd143a4aa457eadf91b54604bd5`. |
 | Human keyboard and screen-reader completion | **PENDING FOR STABLE** | No conformance claim is made. |
 | Real mobile device and 200% zoom | **PENDING FOR STABLE** | Automated responsiveness does not replace physical-device testing. |
 | Firefox and Safari/WebKit human review | **PENDING FOR STABLE** | The prerelease remains a review candidate. |

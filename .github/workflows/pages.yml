@@ -129,25 +129,25 @@ jobs:
           node tests/deployed_browser_uat.mjs \
             --base-url "${DEPLOYED_URL}" \
             --expected-commit "${EXPECTED_COMMIT}" \
-            --output-json dist-deployed-uat/peace-os-crisis-room-v0.3.0-rc2-deployed-uat.json \
-            --output-md dist-deployed-uat/peace-os-crisis-room-v0.3.0-rc2-deployed-uat.md
+            --output-json dist-deployed-uat/peace-os-crisis-room-v0.3.0-rc3-deployed-uat.json \
+            --output-md dist-deployed-uat/peace-os-crisis-room-v0.3.0-rc3-deployed-uat.md
           python tools/verify_deployed_uat.py \
-            --input dist-deployed-uat/peace-os-crisis-room-v0.3.0-rc2-deployed-uat.json \
+            --input dist-deployed-uat/peace-os-crisis-room-v0.3.0-rc3-deployed-uat.json \
             --expected-commit "${EXPECTED_COMMIT}" \
             --expected-url "${DEPLOYED_URL}"
           (
             cd dist-deployed-uat
             sha256sum \
-              peace-os-crisis-room-v0.3.0-rc2-deployed-uat.json \
-              peace-os-crisis-room-v0.3.0-rc2-deployed-uat.md \
-              > peace-os-crisis-room-v0.3.0-rc2-deployed-uat-SHA256SUMS.txt
+              peace-os-crisis-room-v0.3.0-rc3-deployed-uat.json \
+              peace-os-crisis-room-v0.3.0-rc3-deployed-uat.md \
+              > peace-os-crisis-room-v0.3.0-rc3-deployed-uat-SHA256SUMS.txt
           )
       - name: Confirm schema identifiers resolve
         run: python tools/check_schema_ids.py --online
       - name: Publish exact deployed UAT evidence
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: peace-os-v0.3.0-rc2-deployed-uat-${{ github.sha }}
+          name: peace-os-v0.3.0-rc3-deployed-uat-${{ github.sha }}
           path: dist-deployed-uat
           if-no-files-found: error
           retention-days: 90

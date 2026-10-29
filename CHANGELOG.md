@@ -1,4 +1,11 @@
 
+## v0.3.0-rc3 - Suite Path and Publication Hardening
+
+- Quiet Start here entry, suite-path navigation, and browser availability framing.
+- Shared site design tokens; schema `$id` Pages publication; ai-governance.solutions link alignment.
+- CI identity gates, Pages permission scoping, and release-asset workflow maintenance.
+- Regenerated `MANIFEST.json` and `SHA256SUMS.txt` for the RC3 candidate.
+
 ## Current repository identity
 
 Current public repository: `GLOBAL-AI-GOVERNANCE/peace-os`. Current Pages location: `https://global-ai-governance.github.io/peace-os/`. Earlier entries preserve the repository identity used at the time.

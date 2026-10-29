@@ -4,10 +4,10 @@ from pathlib import Path
 from scoring_model_reference import load_scenarios, ideal_decision, total_score, performance_label, Decision, expected_marks
 ROOT=Path(__file__).resolve().parents[1]
 
-class RC2Contracts(unittest.TestCase):
+class RC3Contracts(unittest.TestCase):
     def test_metadata_is_canonical(self):
         metadata=json.loads((ROOT/'core/release/metadata.json').read_text())
-        self.assertEqual(metadata['product_version'],'0.3.0-rc2')
+        self.assertEqual(metadata['product_version'],'0.3.0-rc3')
         self.assertEqual((ROOT/'VERSION').read_text().strip(),metadata['product_version'])
     def test_ideal_decisions_remain_top_band(self):
         for scenario in load_scenarios().values():
