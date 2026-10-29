@@ -430,7 +430,7 @@
     {
       "bytes": 760,
       "path": "tests/fixtures/session/corrupt_reviewed.json",
-      "sha256": "5672b10d6470325e9e1e63faebd220d38cc52051cd420bf0588d1deb5cbf369b"
+      "sha256": "7ab83e707a50269238d548b990f1ffc12a3873df9d3c41d418981ea1ad4a9312"
     },
     {
       "bytes": 74,
