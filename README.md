@@ -1,7 +1,7 @@
 # Peace OS: Crisis Room
 
 <!-- gaig:nav -->
-**[Global AI Governance](https://ai-governance.solutions/)** · `v0.3.0 · available` · `authority_effect: NONE`
+**[Global AI Governance](https://ai-governance.solutions/)** · `v0.3.0 · released` · `authority_effect: NONE`
 
 [Start where you are](https://ai-governance.solutions/start.html) · [Connect your agent](https://ai-governance.solutions/connect.html#agents) · [Specifications](https://ai-governance.solutions/connect.html#spec) · [All products](https://ai-governance.solutions/#products)
 
