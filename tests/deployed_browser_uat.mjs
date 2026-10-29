@@ -493,8 +493,8 @@ async function exerciseResultControls(client) {
   checks.downloaded_aar_contract = Boolean(
     aar
     && aar.schema_version === '2.0'
-    && aar.product_version === '0.3.0-rc3'
-    && aar.application_version === '0.3.0-rc3'
+    && aar.product_version === '0.3.0'
+    && aar.application_version === '0.3.0'
     && aar.decision_digest === aar.confirmed_digest
     && /^[0-9a-f]{64}$/.test(aar.decision_digest || '')
     && aar.human_final_confirmation === true

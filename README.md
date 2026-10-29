@@ -1,7 +1,7 @@
 # Peace OS: Crisis Room
 
 <!-- gaig:nav -->
-**[Global AI Governance](https://ai-governance.solutions/)** · `v0.3.0-rc3 · available` · `authority_effect: NONE`
+**[Global AI Governance](https://ai-governance.solutions/)** · `v0.3.0 · available` · `authority_effect: NONE`
 
 [Start where you are](https://ai-governance.solutions/start.html) · [Connect your agent](https://ai-governance.solutions/connect.html#agents) · [Specifications](https://ai-governance.solutions/connect.html#spec) · [All products](https://ai-governance.solutions/#products)
 
@@ -12,13 +12,13 @@ A crisis-room simulator for weighing evidence, protecting civilians, choosing re
 
 > Verification before amplification. Human control before release.
 
-**Release status:** `v0.3.0-rc3` · available in your browser. Independent human validation (assistive technology, cross-browser, real-device, and learning review) is open before a stable release; see [Release limits](PUBLIC_RELEASE_GATE.md). Earlier `v0.2.x` releases are superseded.
+**Release status:** `v0.3.0` · released for browser use. Godot, Windows packaging, certification, and operational use remain HOLD; human accessibility and learning claims are not asserted. See [Release limits](PUBLIC_RELEASE_GATE.md). Earlier `v0.2.x` releases are superseded.
 
 **Session time:** 15–25 minutes
 
 **Privacy:** local browser session data with no application account, application telemetry, backend, external AI, or live operational feed
 
-[Launch the web simulation](https://global-ai-governance.github.io/peace-os/) · [Current release](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v0.3.0-rc3) · [Verification status](VERIFICATION.md) · [Release limits](PUBLIC_RELEASE_GATE.md) · [Release lineage](RELEASE_LINEAGE.md)
+[Launch the web simulation](https://global-ai-governance.github.io/peace-os/) · [Current release](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v0.3.0) · [Verification status](VERIFICATION.md) · [Release limits](PUBLIC_RELEASE_GATE.md) · [Release lineage](RELEASE_LINEAGE.md)
 
 [![Peace OS: Crisis Room start screen](docs/assets/peace-os-crisis-room-preview.webp)](https://global-ai-governance.github.io/peace-os/)
 
@@ -55,7 +55,7 @@ The selected scenario and mode remain visible throughout the exercise.
 
 ## Portfolio interoperability
 
-RC3 continues suite-path work and keeps a reference-only operating-disposition handoff for synthetic portfolio exercises. The browser does not automatically ingest AI Cyber Resilience Framework state, the handoff grants no authority, and stable-release holds remain open.
+v0.3.0 continues suite-path work and keeps a reference-only operating-disposition handoff for synthetic portfolio exercises. The browser does not automatically ingest AI Cyber Resilience Framework state; the handoff grants no authority. Product holds (Godot, Windows, certification, operational use) remain.
 
 See [`docs/portfolio-interoperability.md`](docs/portfolio-interoperability.md).
 

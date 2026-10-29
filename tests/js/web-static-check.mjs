@@ -9,7 +9,7 @@ const checks = [
   ['CSP', /Content-Security-Policy/], ['external frame guard', /window\.top !== window\.self/],
   ['commit gate', /Commit decision/], ['duplicate commit guard', /if \(committing\) return/],
   ['precise local data statement', /No application account, application telemetry, backend, external AI, live operational feed/],
-  ['visible RC3 status', /v0\.3\.0-rc3/], ['AAR download', /Download After-Action Review Record/],
+  ['visible v0.3.0 status', /v0\.3\.0/], ['AAR download', /Download After-Action Review Record/],
   ['unique AAR filename', /peace-os-crisis-room-aar-/], ['confirmation digest', /confirmed_digest/],
   ['native meter', /<meter min="0" max="100"/], ['saved session recovery', /Resume saved session/],
   ['compact progress', /Step \$\{stepNumber\} of \$\{steps\.length\}/],
@@ -24,7 +24,7 @@ const checks = [
   ['bounded audit events', /hashAuditEvents/], ['print completeness', /beforeprint/],
   ['noscript guidance', /<noscript>/], ['startup failure guidance', /Unable to start the simulation/],
   ['repository link', /Project transparency/], ['verification link', /VERIFICATION\.md/],
-  ['release link', /releases\/tag\/v0\.3\.0-rc3/], ['security link', /security\/policy/],
+  ['release link', /releases\/tag\/v0\.3\.0/], ['security link', /security\/policy/],
   ['post-action focus', /download-aar-button/],
 ];
 const failures = checks.filter(([, expression]) => !expression.test(combined)).map(([name]) => name);

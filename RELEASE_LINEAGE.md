@@ -17,6 +17,6 @@ Historical internal RC3/RC4 packages are evidence archives, not later public ver
 
 Peace OS is the product and doctrine name. It is not a computer operating system, operational decision authority, intelligence product, media-authentication service, emergency-response platform, legal-attribution engine, certification product, or autonomous release authority.
 
-## v0.3.0-rc3
+## v0.3.0
 
 Candidate after RC2 suite-path and publication hardening. Human validation remains open.

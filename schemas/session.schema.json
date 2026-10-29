@@ -7,7 +7,7 @@
   "required": ["session_schema_version", "app_version", "session_id", "started_at", "screen", "mode", "scenario_id", "scenario_version", "card_id", "reviewed", "marks", "confidence", "corroboration", "authenticity", "release_id", "actions", "remaining_minutes", "public_pressure", "timed", "human_confirmation", "confirmed_digest", "committed", "result", "audit_events"],
   "properties": {
     "session_schema_version": {"const": "2.0"},
-    "app_version": {"const": "0.3.0-rc3"},
+    "app_version": {"const": "0.3.0"},
     "session_id": {"type": "string", "minLength": 8},
     "started_at": {"type": "string", "format": "date-time"},
     "screen": {"enum": ["resume", "start", "boundary", "briefing", "evidence", "card", "confidence", "corroboration", "authenticity", "release", "actions", "review", "result", "delete_confirm"]},

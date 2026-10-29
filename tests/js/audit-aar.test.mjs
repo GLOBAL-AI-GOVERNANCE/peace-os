@@ -8,7 +8,7 @@ const metadata = JSON.parse(fs.readFileSync(new URL('../../core/release/metadata
 
 test('local audit events hash-link and mutation fails verification', async () => {
   const raw = [];
-  recordAuditEvent(raw, 'session_started', { application_version: '0.3.0-rc3' }, '2026-08-04T00:00:00Z');
+  recordAuditEvent(raw, 'session_started', { application_version: '0.3.0' }, '2026-08-04T00:00:00Z');
   recordAuditEvent(raw, 'scenario_selected', { scenario_id: 'scenario_01_viral_collision_video' }, '2026-08-04T00:01:00Z');
   const chain = await hashAuditEvents(raw, '1.0');
   assert.equal(await verifyAuditChain(chain), true);
