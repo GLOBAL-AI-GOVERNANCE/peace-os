@@ -2,7 +2,7 @@
 
 This post-RC2 development increment adds a bounded reference contract for using an AI Cyber Resilience Framework operating-disposition reference inside a fictional Peace OS learning or review context.
 
-It does not change the `v0.3.0-rc3` prerelease candidate, its release assets once published, or the stable-release holds.
+It does not change the `v0.3.0` release assets or the product claim boundaries in the public release gate.
 
 ## Reference-only rule
 
@@ -33,6 +33,6 @@ The browser simulation does not automatically ingest this contract and does not 
 
 ## Release boundary
 
-This is suite-path and publication-hardening work after RC2. The public release candidate is `v0.3.0-rc3`.
+This is suite-path and publication-hardening work. The public release is `v0.3.0`.
 
 Human accessibility, real-device, cross-browser, print/PDF, subject-matter, Godot, Windows, certification, and operational gates remain separate and are not closed by this interoperability increment.

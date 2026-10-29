@@ -94,7 +94,7 @@ class WebAccessibilityContract(unittest.TestCase):
             self.assertIn(control_id, self.js)
 
     def test_visible_maturity_transparency_and_failure_guidance(self):
-        self.assertIn('v0.3.0-rc3', self.html)
+        self.assertIn('v0.3.0', self.html)
         self.assertIn('<noscript>', self.html)
         self.assertIn('Project transparency', self.html)
         for fragment in ('VERIFICATION.md', 'PUBLIC_RELEASE_GATE.md', 'security/policy'):

@@ -1,25 +1,36 @@
 # Public Release Gate
 
-## `v0.3.0-rc3` prerelease scope
+## `v0.3.0` stable browser release
 
 The approved public label is:
 
-> **Peace OS: Crisis Room v0.3.0-rc3: Suite Path and Publication Hardening**
+> **Peace OS: Crisis Room v0.3.0: Suite Path and Publication Hardening**
 
-A prerelease may be published after:
+**Status: released** for the browser review client on GitHub Pages.
 
-- the exact reviewed candidate is integrated through a protected pull request;
-- required CI and repository protections permit merge;
-- GitHub Pages deploys from the validated final `main` commit;
-- deployment metadata served from the Pages site identifies that exact commit;
-- deployed asset and browser-journey validation passes for that exact commit with no console errors or unexpected external requests;
-- source, provenance, release SBOM, checksums, and acceptance reports are generated against the same final commit;
-- downloaded release assets reverify;
-- repository, release, tag, Pages, and public profile surfaces agree on the RC3 prerelease state.
+Claim limits for this release:
 
-For this RC3 prerelease, exact deployed automated UAT is the publication gate. Human keyboard, cross-browser, screen-reader, print/PDF, physical-device, and learning validation remain separate stable or post-publication evidence tracks and are not claimed by RC3.
+- automated source checks, repository CI, and commit-bound deployed browser UAT evidence from the RC3 track support publication;
+- human keyboard, cross-browser, screen-reader, print/PDF, physical-device, and learning validation are **not claimed**;
+- Godot desktop, Windows packaging, certification, and operational/intelligence/emergency-response use remain **HOLD**;
+- `authority_effect: NONE`; the simulation is fictional training/review only.
 
-## RC3 publication record
+## Web security boundary
+
+The review client uses a restrictive meta CSP and JavaScript frame guard. GitHub Pages does not provide repository-controlled arbitrary response headers. Before a stronger framing claim, either use hosting that can send `Content-Security-Policy: frame-ancestors 'none'` or accept the reduced anti-framing boundary.
+
+## Holds (product claim boundaries)
+
+The following remain HOLD / not claimed:
+
+- Godot parser, import, runtime, and filesystem behavior;
+- Windows executable distribution;
+- professional workshop, assessment, or certification use;
+- operational, intelligence, emergency-response, or legal-attribution use;
+- measured WCAG conformance and assistive-technology completion claims;
+- independent subject-matter and measured human-learning validation claims.
+
+## Prior RC3 publication record
 
 - Public prerelease: [`v0.3.0-rc3`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v0.3.0-rc3)
 - Exact release commit: `4d34a4d6bdac4dfa5b6de4d7f2c04c9ea8ce906f`
@@ -34,25 +45,5 @@ For this RC3 prerelease, exact deployed automated UAT is the publication gate. H
 - Exact deployed Pages workflow: [`30897461431`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os-crisis-room/actions/runs/30897461431) — **PASS**
 - Commit-bound deployed-UAT artifact: `peace-os-v0.3.0-rc2-deployed-uat-aa6d8f75ce755fd143a4aa457eadf91b54604bd5`
 - Artifact digest: `sha256:32c3ad4b4176816e310d1ea4694b6556fa255e6408e56e16b4f572fcd4952e4c`
-
-## Web security boundary
-
-The review client uses a restrictive meta CSP and JavaScript frame guard. GitHub Pages does not provide repository-controlled arbitrary response headers. Before a stable security claim, either use hosting that can send `Content-Security-Policy: frame-ancestors 'none'` or explicitly accept and document the reduced anti-framing boundary.
-
-## Stable-release holds
-
-The following remain HOLD until independently evidenced:
-
-- human keyboard-only and assistive-technology completion;
-- human cross-browser and print/PDF acceptance;
-- WCAG conformance;
-- real-device mobile and 200 percent zoom review;
-- independent subject-matter and measured human-learning validation;
-- professional workshop, assessment, or certification use;
-- Godot parser, import, runtime, and filesystem behavior;
-- Windows executable distribution;
-- operational, intelligence, emergency-response, or legal-attribution use.
-
-The browser prerelease is a public review candidate, not a stable or certified product.
 
 Current repository identity is `GLOBAL-AI-GOVERNANCE/peace-os`.

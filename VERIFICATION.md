@@ -1,6 +1,6 @@
 # Verification
 
-This is the controlling public verification matrix for `v0.3.0-rc3`.
+This is the controlling public verification matrix for `v0.3.0`.
 
 | Evidence class | Current status | Meaning |
 |---|---|---|
@@ -12,10 +12,10 @@ This is the controlling public verification matrix for `v0.3.0-rc3`.
 | Semantic web source contract | **PASS** | Neutral start, commit-before-results, focus, native controls, local-only behavior, and failure fallbacks are contract-tested. |
 | Automated local browser journeys | **PASS with environment boundary** | Both scenarios, all modes, result controls, persistence, failure paths, keyboard entry, and 320-pixel layout passed in bounded local browser validation. |
 | Deployed GitHub Pages browser validation | **PASS** | Pages run [`40952158125`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/actions/runs/40952158125) deployed exact RC3 release commit `4d34a4d6bdac4dfa5b6de4d7f2c04c9ea8ce906f`. Commit-bound evidence artifact `peace-os-v0.3.0-rc3-deployed-uat-4d34a4d6bdac4dfa5b6de4d7f2c04c9ea8ce906f` with digest `sha256:ff67d2c6dc6e00ebcffd1486448b8861e36614b7f02177b916d36fa9e2393e8d`. |
-| Human keyboard and screen-reader completion | **PENDING FOR STABLE** | No conformance claim is made. |
-| Real mobile device and 200% zoom | **PENDING FOR STABLE** | Automated responsiveness does not replace physical-device testing. |
-| Firefox and Safari/WebKit human review | **PENDING FOR STABLE** | The prerelease remains a review candidate. |
-| Human print/PDF and cross-browser usability | **PENDING FOR STABLE** | Automated output checks do not establish human usability or certification. |
+| Human keyboard and screen-reader completion | **NOT CLAIMED** | No conformance claim is made. |
+| Real mobile device and 200% zoom | **NOT CLAIMED** | Automated responsiveness does not replace physical-device testing. |
+| Firefox and Safari/WebKit human review | **NOT CLAIMED** | Not claimed by this browser release. |
+| Human print/PDF and cross-browser usability | **NOT CLAIMED** | Automated output checks do not establish human usability or certification. |
 | Godot import and runtime | **PENDING** | Static contracts do not establish parser, runtime, or filesystem behavior. |
 | Windows package | **NOT INCLUDED** | A separately evidenced desktop release is required. |
 | Subject-matter and human-learning validity | **PENDING** | Authored simulation coherence is not professional or educational validation. |
@@ -35,7 +35,7 @@ python3 tools/run_automated_acceptance.py \
   --output-md /tmp/peace-os-acceptance.md
 ```
 
-## Public prerelease evidence
+## Prior prerelease evidence
 
 The original RC2 release evidence was produced from historical signed and deployed commit `aa6d8f75ce755fd143a4aa457eadf91b54604bd5` after required checks, Pages deployment, commit-bound `deployment.json`, deployed-browser journeys, deterministic rebuilds, matching provenance, and downloaded release-asset reverification passed. That historical deployment record and its evidence artifacts remain intact.
 

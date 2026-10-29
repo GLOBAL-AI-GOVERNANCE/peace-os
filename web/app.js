@@ -984,7 +984,7 @@ async function init() {
   document.documentElement.dataset.appReady = 'true';
   updateDeleteButton();
   if (!storageAvailable) announce('Browser storage is unavailable. The session will continue in memory only.');
-  if (new URLSearchParams(location.search).has('selftest')) document.documentElement.dataset.selftest = Object.keys(scenarios).length === 2 && rubric.credible_gate && metadata.application_version === '0.3.0-rc3' ? 'pass' : 'fail';
+  if (new URLSearchParams(location.search).has('selftest')) document.documentElement.dataset.selftest = Object.keys(scenarios).length === 2 && rubric.credible_gate && metadata.application_version === '0.3.0' ? 'pass' : 'fail';
 }
 
 

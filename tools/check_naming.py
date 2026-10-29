@@ -4,7 +4,7 @@ from generate_manifest import ROOT, controlled_files
 CANONICAL = 'Peace OS: Crisis Room'
 SLUG = 'peace-os-crisis-room'
 REPOSITORY = 'GLOBAL-AI-GOVERNANCE/peace-os'
-VERSION = '0.3.0-rc3'
+VERSION = '0.3.0'
 DISCLAIMER = 'Peace OS is the product name. This project is not a computer operating system.'
 
 for rel in ('README.md', 'game/project.godot', 'RELEASE_NOTES.md', 'web/index.html'):

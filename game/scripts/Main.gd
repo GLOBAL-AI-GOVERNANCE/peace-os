@@ -1267,7 +1267,7 @@ func export_aar_report() -> void:
 	var file_name := "aar_%s_%s.json" % [scenario.get("scenario_id", "scenario"), unix]
 	var report_path := "user://aar_reports/" + file_name
 	var payload := {
-		"game_version": "0.3.0-rc3",
+		"game_version": "0.3.0",
 		"policy_id": governance_policy.get("policy_id", ""),
 		"policy_version": governance_policy.get("policy_version", ""),
 		"scenario_id": scenario.get("scenario_id", ""),

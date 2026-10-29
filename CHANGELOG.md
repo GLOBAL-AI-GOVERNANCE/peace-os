@@ -1,19 +1,12 @@
+# Changelog
 
-## v0.3.0-rc3 - Suite Path and Publication Hardening
+## v0.3.0 - Suite Path and Publication Hardening
 
 - Quiet Start here entry, suite-path navigation, and browser availability framing.
 - Shared site design tokens; schema `$id` Pages publication; ai-governance.solutions link alignment.
 - CI identity gates, Pages permission scoping, and release-asset workflow maintenance.
-- Regenerated `MANIFEST.json` and `SHA256SUMS.txt` for the RC3 candidate.
-
-## Current repository identity
-
-Current public repository: `GLOBAL-AI-GOVERNANCE/peace-os`. Current Pages location: `https://global-ai-governance.github.io/peace-os/`. Earlier entries preserve the repository identity used at the time.
-
-# Changelog
-
-## Unreleased
-
+- Regenerated `MANIFEST.json` and `SHA256SUMS.txt` for the release.
+- Promotes the RC3 browser candidate to stable browser release `v0.3.0`; Godot, Windows, certification, and operational claims remain HOLD / not claimed.
 - Publishes the operating-disposition reference schema at its GitHub Pages identifier, `https://global-ai-governance.github.io/peace-os/schemas/operating-disposition-reference.schema.json`; schema content is unchanged apart from `$id`.
 - Adds a schema identifier check in CI and a post-deployment check that each published identifier resolves to the same document.
 - Adds the shared design tokens v2 in light form: a hairline grid field and a luminous rule under the introduction, wider label tracking, and a quiet hover glow on buttons. The rule draws once and stays still under reduced motion. Simulation behavior is unchanged.
