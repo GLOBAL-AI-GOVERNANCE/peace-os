@@ -1,25 +1,18 @@
-# Release Notes - v0.3.0-rc2
+# Release Notes - Peace OS: Crisis Room v0.3.0-rc3
 
-## Peace OS: Crisis Room - Primer Closure and Contract Hardening
+Public release candidate following RC2. Still a **release candidate**: human keyboard, cross-browser, screen-reader, print/PDF, physical-device, and learning validation remain open (see `PUBLIC_RELEASE_GATE.md` stable-release holds).
 
-This prerelease closes the browser Primer contracts without expanding operational scope.
+## What changed since RC2
 
-> Peace OS is the product name. This project is not a computer operating system.
+- Quiet Start here entry in the top bar and suite-path README navigation.
+- Browser availability framing for synthetic scenarios; shared black-and-white site design and design tokens.
+- Schema `$id` URLs published on Pages; operating-disposition schema at its Pages identifier.
+- Toolkit and navigation links pointed at ai-governance.solutions; gaig shared nav/footer.
+- Release-asset build in GitHub Actions; regenerated prerelease checksums; RC2 provenance wording simplified.
+- PR identity gate, Dependabot identity admission, Pages permission scoping, and related CI hardening.
+- Manifest regenerated for this candidate (`MANIFEST.json`, `SHA256SUMS.txt`).
 
-### Included
+## Publication gate
 
-- Canonical release metadata shared by source, browser, and experimental Godot data.
-- Versioned, schema-valid browser After-Action Review records.
-- Bounded local audit events with explicit unsigned and unanchored limitations.
-- Strict saved-session validation, supported migration, and safe rejection UX.
-- Reconciled scenario vocabulary, action-quality gates, and data-driven time behavior.
-- Visible prerelease maturity, transparency links, no-JavaScript guidance, and print-complete AAR output.
-- Exact post-deployment browser UAT and deterministic release evidence bound to the accepted merge commit.
+Exact deployed automated UAT against the RC3 release commit remains the publication gate. Human validation tracks stay separate and are not claimed by this RC.
 
-### Evidence boundary
-
-This prerelease does not establish WCAG conformance, educational effectiveness, professional validity, certification, Godot or Windows readiness, intelligence validity, emergency-response fitness, legal attribution, or operational capability. Local digests and audit events are unsigned, identity-unauthenticated, not independently timestamped, and not externally anchored.
-
-### Historical continuity
-
-`v0.3.0-rc1`, `v0.2.2`, and `v0.2.1` remain immutable historical records. They are not rewritten or used as merge bases for this closure release.

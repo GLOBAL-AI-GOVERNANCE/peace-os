@@ -43,9 +43,9 @@ class PortfolioInteropTests(unittest.TestCase):
         self.assertTrue(set(schema["required"]).issubset(example))
         self.assertTrue(set(example).issubset(schema["properties"]))
 
-    def test_document_preserves_rc2_and_stable_holds(self) -> None:
+    def test_document_preserves_rc3_and_stable_holds(self) -> None:
         text = DOC.read_text(encoding="utf-8")
-        self.assertIn("public release remains `v0.3.0-rc2`", text)
+        self.assertIn("public release candidate is `v0.3.0-rc3`", text)
         self.assertIn("does not automatically ingest", text)
         self.assertIn("remain separate and are not closed", text)
 
