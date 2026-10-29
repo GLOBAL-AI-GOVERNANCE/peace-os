@@ -21,11 +21,11 @@ For this RC3 prerelease, exact deployed automated UAT is the publication gate. H
 
 ## RC3 publication record
 
-- Public prerelease: pending tag `v0.3.0-rc3`
-- Exact release commit: pending merge of the RC3 candidate
-- Exact deployed Pages workflow: pending
-- Commit-bound deployed-UAT artifact: pending `peace-os-v0.3.0-rc3-deployed-uat-<sha>`
-- Artifact digest: pending
+- Public prerelease: [`v0.3.0-rc3`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/releases/tag/v0.3.0-rc3)
+- Exact release commit: `4d34a4d6bdac4dfa5b6de4d7f2c04c9ea8ce906f`
+- Exact deployed Pages workflow: [`40952158125`](https://github.com/GLOBAL-AI-GOVERNANCE/peace-os/actions/runs/40952158125) — **PASS**
+- Commit-bound deployed-UAT artifact: `peace-os-v0.3.0-rc3-deployed-uat-4d34a4d6bdac4dfa5b6de4d7f2c04c9ea8ce906f`
+- Artifact digest: `sha256:ff67d2c6dc6e00ebcffd1486448b8861e36614b7f02177b916d36fa9e2393e8d`
 
 ## Prior RC2 publication record
 

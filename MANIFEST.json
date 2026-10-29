@@ -53,9 +53,9 @@
       "sha256": "d2af5ea60ad5be0e2927636f04e25ab9e9e6e785b80c47d740af0567c5bb2de2"
     },
     {
-      "bytes": 3060,
+      "bytes": 3321,
       "path": "PUBLIC_RELEASE_GATE.md",
-      "sha256": "528a5fcf4ad47e259b91552c925e0f9f7fc9209c6357e918080fa7bd24145351"
+      "sha256": "899964c1d59ec5c01af41f9462b5b366aeea378532e706e28fcab847d91c4f69"
     },
     {
       "bytes": 6385,
@@ -78,9 +78,9 @@
       "sha256": "20589b191c2e3e53062b79ab127e9be11b8c4a60548f52f6fc5851a0730bc99d"
     },
     {
-      "bytes": 4860,
+      "bytes": 4951,
       "path": "VERIFICATION.md",
-      "sha256": "83b7949d5a0ac560b059ad00c9acacdbb49a00ad358fd7b7df0a66f3d0860eae"
+      "sha256": "b711b0028fbf37b78550584e88742424128a52e231b888b3650c1eb5b87438c7"
     },
     {
       "bytes": 10,
