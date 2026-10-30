@@ -193,8 +193,9 @@ function esc(value = '') {
   }[character]));
 }
 
-function button(label, action, secondary = false, disabled = false, id = '') {
-  return `<button type="button" data-action="${esc(action)}" class="${secondary ? 'secondary' : ''}" ${disabled ? 'disabled' : ''} ${id ? `id="${esc(id)}"` : ''}>${esc(label)}</button>`;
+function button(label, action, secondary = false, disabled = false, id = '', ariaLabel = '') {
+  const accessible = ariaLabel || label;
+  return `<button type="button" data-action="${esc(action)}" class="${secondary ? 'secondary' : ''}" ${disabled ? 'disabled' : ''} ${id ? `id="${esc(id)}"` : ''} aria-label="${esc(accessible)}">${esc(label)}</button>`;
 }
 
 function renderProgress() {
@@ -435,7 +436,7 @@ function evidence() {
     <article class="card ${state.reviewed.includes(item.id) ? 'reviewed' : 'unreviewed'}">
       <h3>${esc(item.title)}</h3>
       <p>${state.reviewed.includes(item.id) ? 'Reviewed' : 'Unread'}</p>
-      ${button('Review evidence', `card:${item.id}`, true, false, `open-card-${item.id}`)}
+      ${button('Review evidence', `card:${item.id}`, true, false, `open-card-${item.id}`, `Review evidence: ${item.title}`)}
     </article>`).join('');
   panel('Evidence inbox', `
     <p class="status">Reviewed ${state.reviewed.length} of ${currentScenario.evidence_cards.length}. Simulated decision-time budget remaining: ${state.remaining_minutes} minutes. Public pressure: ${state.public_pressure}/100. Complete review is required before analysis.</p>
