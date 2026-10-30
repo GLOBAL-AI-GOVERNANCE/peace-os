@@ -1,6 +1,6 @@
 {
   "artifact": "peace-os-crisis-room",
-  "file_count": 161,
+  "file_count": 162,
   "files": [
     {
       "bytes": 180,
@@ -31,6 +31,11 @@
       "bytes": 748,
       "path": ".gitignore",
       "sha256": "5a8beb9049d239c29d0bef75898253e644911e78972d344e79ed0818fb591317"
+    },
+    {
+      "bytes": 884,
+      "path": "AGENTS.md",
+      "sha256": "603ac4e401b6c745a421227811eaadbc3a1b23544ad9beb95a4cee6492336e45"
     },
     {
       "bytes": 3739,
